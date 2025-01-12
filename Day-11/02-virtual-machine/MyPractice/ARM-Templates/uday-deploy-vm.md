@@ -8,7 +8,7 @@ az group create --name vscode --location 'Central US'
 ```
 
 
-### Generate SSH keys (if you don't hava any)
+### Generate SSH keys (if you don't have any)
 
 This will generate both publickey(.pub) file adn privatekey(.pem) file in the path you specified
 
