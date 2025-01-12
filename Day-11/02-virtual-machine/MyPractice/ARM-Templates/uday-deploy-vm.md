@@ -7,6 +7,7 @@
 az group create --name vscode --location 'Central US'
 ```
 
+
 ### Generate SSH keys
 
 This will generate both publickey(.pub) file adn privatekey(.pem) file in the path you specified
@@ -28,6 +29,8 @@ Here you need to provide any adminusernmae && copy and paste the above generated
 az deployment group create --resource-group vscode --template-file 01-create-vm.json
 ```
 
+
+### My Method 
 ### Create Virtual Machine by providing publicKey as a parameter(without copy and paste public-key) 
 
 Switch to the folder where you have the `create-vm.json` file available.
